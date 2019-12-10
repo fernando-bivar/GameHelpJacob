@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="CSS/Index.css">
+        <link rel="stylesheet" href="CSS/SobreJogo.css">
+        <script src="JS/Index.js"></script>
+        <script src="JS/jQueryJS/jquery-3.4.1.js"></script>
+        <title>Login</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <h1 id="titulo1">Login</h1> <br>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputNick1">Nick</label>
+                        <input type="text" class="form-control" id="nick" aria-describedby="nickHelp" placeholder="Digite seu Nick" onblur="ValidarNick();">
+                        <small id="errNick" class="Erros"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Senha</label>
+                        <input type="password" class="form-control" id="senha" placeholder="Digite sua Senha" onblur="ValidarSenha();">
+                        <small id="errSenha" class="Erros"></small>
+                    </div>
+                    <div id="SobreoJogo"></div>
+                    <div class="boxet">
+                        <img src="IMAGE/HelpJacob.png">
+                        <a href="" id="close">X</a>
+                    </div>
+                    <button type="button" class="btn btn-primary" id="btnEntrar" onclick="ReceberInf();">Entrar</button> <br> <br>
+                    <a href="Cadastro.html" id="referencia">Cadastre-se</a> <br> <br> <br>
+                    <a href="#SobreoJogo" id="inf">Sobre o Jogo</a>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

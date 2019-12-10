@@ -1,0 +1,27 @@
+table{
+    width: 70%;
+    position: absolute;
+    right: 10px;
+}
+.table-striped{
+    top: 10%;
+    width: 70%;
+    position: absolute;
+    right: 230px;
+}
+
+.table-striped2{
+    top: 24%;
+    width: 70%;
+    position: absolute;
+    right: 230px;
+}
+
+table,th,td{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#tabela{
+    text-align: center;
+}
+

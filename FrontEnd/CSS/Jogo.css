@@ -1,0 +1,60 @@
+body{
+    background-color: gainsboro;
+    margin: 0px
+}
+#tela{
+	background-color: #FFFFFF;
+	border: 1px solid blue;
+	width: 1080px;
+	height: 450px;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+#tempo{
+	position: absolute;
+	left: 90%;
+	color: #FF0000;
+	font-family: Verdana;
+	font-size: 16;
+}
+#score{
+	color: #000000;
+	font-family: Arial;
+	font-size: 14;
+	position: relative;
+	left: 0px;
+}
+#btnStart{
+	width: 20vh;
+	height: 8vh;
+	background-color: cadetblue;
+	color: red;
+	position: absolute;
+	left: 40%;
+	bottom: 1%;
+}
+#btnRestart{
+	width: 20vh;
+	height: 8vh;
+	background-color: salmon;
+	color: red;
+	position: absolute;
+	left: 50%;
+	bottom: 1%;
+}
+#btnSair{
+	position: absolute;
+	color: mediumblue;
+	font-size: 3vh;
+}
+#divPalavra{
+	text-align: center;
+	font-family: Verdana;
+}
+#palavra{
+	color:red;
+}

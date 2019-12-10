@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jogo Educativo</title>
+	<link rel="stylesheet" type="text/css" href="CSS/Jogo.css">
+	<link rel="stylesheet" href="CSS/Estilobar.css">
+	<script src="JS/MapaCriado1.js"></script>
+	<script src="JS/ConfigJogo.js"></script>
+	<script src="JS/jQueryJS/jquery-3.4.1.js"></script>
+</head>
+<body>
+	<header></header>
+    <input type="checkbox" id="chk">
+    <label for="chk" class="menuIcon">&#9776</label>
+    
+    <div class="bg"></div>
+    
+    <nav class="menu" id="principal">
+        <ul>
+            <li><a href="Jogo.html" class="jogo">Jogo</a></li>
+            <li><a href="Ranking.html">Ranking</a></li>
+            <li><a href="Index.html">Logout</a></li>
+                
+        </ul>
+	</nav>
+	
+	<br/><br/><br/>
+	<div id="divPalavra">
+		<h1>PALAVRA: <span id="palavra"> <span id="C">C</span> <span id="A">A</span> <span id="S">S</span> 
+		<span id="A1">A</span> <span id="R">R</span> <span id="Acutio">Ã</span> <span id="O">O</span> </span> </h1>
+	</div>
+	<h3 id="tempo">TEMPO: </h3>
+	<div id="divCanvas">
+		<canvas id="tela" ></canvas>
+	</div>
+	<button type="button" id="btnStart" onclick="PauseAndPlay()">START</button>
+	<button type="button" id="btnRestart" onclick="Restart()">RESTART</button>
+</body>
+<script src="JS/Jogo.js"></script>
+</html>

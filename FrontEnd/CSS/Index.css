@@ -1,0 +1,27 @@
+body{
+    background-color: gainsboro;
+    margin: 0px
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.box{
+    width: 500px;
+    height: 400px;
+    background: gainsboro;
+    color: black;
+}
+#referencia{
+    color:blue;
+}
+#titulo1{
+    text-align: center;
+}
+.Erros{
+    color: red;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="CSS/Estilobar.css">
+        <link rel="stylesheet" href="CSS/Ranking.css">
+        <script src="JS/Ranking.js"></script>
+        <script src="JS/jQueryJS/jquery-3.4.1.js"></script>
+        <title>Ranking</title>
+    </head>
+    <body>
+        <header></header>
+        <input type="checkbox" id="chk">
+        <label for="chk" class="menuIcon">&#9776</label>
+    
+        <div class="bg"></div>
+    
+        <nav class="menu" id="principal">
+            <ul>
+                <li><a href="Jogo.html" class="jogo">Jogo</a></li>
+                <li><a href="Ranking.html">Ranking</a></li>
+                <li><a href="Index.html">Logout</a></li>
+                
+            </ul>
+        </nav>
+
+        <form >
+            <div class="container">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Posição</th>
+                                <th scope="col">Nick</th>
+                                <th scope="col">Tempo</th>  
+                            </tr>
+                        </thead>
+                        <tbody id="tabela"></tbody>
+                    </table>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
